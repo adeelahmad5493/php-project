@@ -1,0 +1,120 @@
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+#outer_div{
+    height: 510px;
+    width: 350px;
+    border: solid black;
+    border-width: thin;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #191818;
+    opacity: 0.90;
+}
+
+
+#username{
+    height: 35px;
+    width: 65%;
+    margin-left: 17.5%;
+    margin-top: 10%;
+    background-color: #353538;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;;
+    border: none;
+
+}
+
+#password{
+    height: 35px;
+    width: 65%;
+    margin: auto;
+    margin-top: 8%;
+    margin-left: 17.5%;
+    background-color: #353538;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;;
+    border: none;
+}
+
+#submit_btn_div{
+    width: 70%;
+    height: 40px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#submit{
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: #ed8c0e;
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+#user_login_text_div{
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+#user_text_span{
+    color: #f26215;
+}
+
+#login_text_span{
+    color: white;
+}
+
+#user_logo_div{
+    top: 10%;
+    width: 30%;
+    height: 18%;
+    margin: auto;
+    background-image: url('user.jpg');
+    background-size: cover;
+}
+
+#user_logo{
+    height: auto;
+    width: auto;
+}
+
+#error_msg_div{
+    margin: auto;
+    width: fit-content;
+    height: 20px;
+    margin-top: 3%;
+    color: white;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+#signup_button_outer_div{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+}
+
+#signup{
+    background-color: #ed8c0e;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 20%;
+}

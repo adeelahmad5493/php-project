@@ -1,0 +1,87 @@
+#top_menu{
+    display: block;
+    height: 65px;
+    box-shadow: 5px;
+    background-color:#2d3440;
+}
+
+#left_menu{
+    display: inline-block;
+    height:710px;
+    width: 12%;
+    background-color:#2d3440;
+
+}
+
+#form_outer_div{
+    height: 100%;
+    width: 88%;
+    float: right;
+    background-image: url('khired1.jpg');
+}
+
+#form_inner_div{
+    height: fit-content;
+    margin: 25px 25px 25px;
+
+}
+
+#first_fieldset_div{
+    background-color: #f2f2f2;
+    opacity: 0.60;
+    border-bottom: 0px;
+    height:fit-content;
+}
+
+#second_fieldset_div{
+    background-color: #f2f2f2;
+    opacity: 0.60;
+}
+
+#third_fieldset_div{
+    background-color: #f2f2f2;
+    opacity: 0.60;
+    height: fit-content;
+}
+
+#buttons_search_clear{
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#noResultsLogo{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+#show_result{
+    width: 100%;
+    height: fit-content;
+
+}
+
+#show_table{
+    /*border: unset;*/
+    width: 55%;
+    height: 200px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 200px;;
+}
+
+#nothingToShowText{
+    margin-left: 70px;
+    margin-bottom: 40px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+#show_no_of_workers{
+    background-color: white;
+    color: blue;
+}
